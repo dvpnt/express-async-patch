@@ -1,0 +1,30 @@
+{
+  "name": "@dvpnt/express-async-patch",
+  "version": "0.0.1",
+  "description": "simple express monkey patch for async handlers support",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "tap --bail --100 test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvpnt/express-async-patch.git"
+  },
+  "author": "Aleksey Timchenko <flegmatik.bel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvpnt/express-async-patch/issues"
+  },
+  "homepage": "https://github.com/dvpnt/express-async-patch#readme",
+  "devDependencies": {
+    "eslint": "5.7.0",
+    "eslint-config-dvpnt": "3.1.0",
+    "express": "4.17.1",
+    "supertest": "4.0.2",
+    "tap": "14.4.1"
+  },
+  "peerDependencies": {
+    "express": "4"
+  }
+}
