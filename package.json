@@ -1,6 +1,6 @@
 {
   "name": "@dvpnt/express-async-patch",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "simple express monkey patch for async handlers support",
   "main": "index.js",
   "scripts": {
